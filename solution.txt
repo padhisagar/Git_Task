@@ -268,3 +268,39 @@ Branch 'master' set up to track remote branch 'master' from 'origine'.
 
 User@DESKTOP-VLG746S MINGW64 ~/Desktop/Git Task (master)
 $
+
+
+User@DESKTOP-VLG746S MINGW64 ~/Desktop/GitHub Task
+$ cd git task
+bash: cd: too many arguments
+
+User@DESKTOP-VLG746S MINGW64 ~/Desktop/GitHub Task
+$ cd git_task
+
+User@DESKTOP-VLG746S MINGW64 ~/Desktop/GitHub Task/git_task (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+User@DESKTOP-VLG746S MINGW64 ~/Desktop/GitHub Task/git_task (master)
+$ ls
+aboutus.html  contactus.html  index.html  solution.txt
+
+User@DESKTOP-VLG746S MINGW64 ~/Desktop/GitHub Task/git_task (master)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 2.25 KiB | 1.13 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/padhisagar/Git_Task.git
+   78128c1..65fc792  master -> master
+
+User@DESKTOP-VLG746S MINGW64 ~/Desktop/GitHub Task/git_task (master)
+$
+
