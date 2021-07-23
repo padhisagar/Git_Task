@@ -36,17 +36,6 @@ User@DESKTOP-VLG746S MINGW64 ~/Desktop/Git Task (master)
 $ git add -A
 
 User@DESKTOP-VLG746S MINGW64 ~/Desktop/Git Task (master)
-$ git branch Dev
-fatal: Not a valid object name: 'master'.
-
-User@DESKTOP-VLG746S MINGW64 ~/Desktop/Git Task (master)
-$ git branch
-
-User@DESKTOP-VLG746S MINGW64 ~/Desktop/Git Task (master)
-$ git branch -a
-
-
-User@DESKTOP-VLG746S MINGW64 ~/Desktop/Git Task (master)
 $ git commit -m "First commit"
 [master (root-commit) 1dd8db1] First commit
  3 files changed, 0 insertions(+), 0 deletions(-)
@@ -102,30 +91,6 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
-User@DESKTOP-VLG746S MINGW64 ~/Desktop/Git Task (Test)
-$ git add -a
-error: unknown switch `a'
-usage: git add [<options>] [--] <pathspec>...
-
-    -n, --dry-run         dry run
-    -v, --verbose         be verbose
-
-    -i, --interactive     interactive picking
-    -p, --patch           select hunks interactively
-    -e, --edit            edit current diff and apply
-    -f, --force           allow adding otherwise ignored files
-    -u, --update          update tracked files
-    --renormalize         renormalize EOL of tracked files (implies -u)
-    -N, --intent-to-add   record only the fact that the path will be added later
-    -A, --all             add changes from all tracked and untracked files
-    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
-    --refresh             don't add, only refresh the index
-    --ignore-errors       just skip files which cannot be added because of errors
-    --ignore-missing      check if - even missing - files are ignored in dry run
-    --chmod (+|-)x        override the executable bit of the listed files
-    --pathspec-from-file <file>
-                          read pathspec from file
-    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
 
 
 User@DESKTOP-VLG746S MINGW64 ~/Desktop/Git Task (Test)
@@ -246,14 +211,6 @@ User@DESKTOP-VLG746S MINGW64 ~/Desktop/Git Task (master)
 $ git remote add origine https://github.com/padhisagar/Git_Task.git
 
 User@DESKTOP-VLG746S MINGW64 ~/Desktop/Git Task (master)
-$ git push add master
-fatal: 'add' does not appear to be a git repository
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-
-User@DESKTOP-VLG746S MINGW64 ~/Desktop/Git Task (master)
 $ git push -u origine master
 Enumerating objects: 17, done.
 Counting objects: 100% (17/17), done.
@@ -266,13 +223,16 @@ To https://github.com/padhisagar/Git_Task.git
  * [new branch]      master -> master
 Branch 'master' set up to track remote branch 'master' from 'origine'.
 
-User@DESKTOP-VLG746S MINGW64 ~/Desktop/Git Task (master)
-$
-
-
 User@DESKTOP-VLG746S MINGW64 ~/Desktop/GitHub Task
-$ cd git task
-bash: cd: too many arguments
+$ git clone https://github.com/padhisagar/Git_Task.git
+Cloning into 'Git_Task'...
+remote: Enumerating objects: 23, done.
+remote: Counting objects: 100% (23/23), done.
+remote: Compressing objects: 100% (12/12), done.
+Receiving objects: 100% (23/23), 4.79 KiB | 490.00 KiB/s, done.
+Resolving deltas: 100% (11/11), done.
+remote: Total 23 (delta 11), reused 22 (delta 10), pack-reused 0
+
 
 User@DESKTOP-VLG746S MINGW64 ~/Desktop/GitHub Task
 $ cd git_task
@@ -284,6 +244,7 @@ Your branch is ahead of 'origin/master' by 1 commit.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
+
 
 User@DESKTOP-VLG746S MINGW64 ~/Desktop/GitHub Task/git_task (master)
 $ ls
